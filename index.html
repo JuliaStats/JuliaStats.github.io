@@ -1,1 +1,283 @@
-Hello, JuliaStats
+<!DOCTYPE HTML>
+<!--
+	Miniport 2.5 by HTML5 UP
+	html5up.net | @n33co
+	Free for personal and commercial use under the CCA 3.0 license (html5up.net/license)
+-->
+<html>
+	<head>
+		<title>JuliaStats.org</title>
+		<meta http-equiv="content-type" content="text/html; charset=utf-8" />
+		<meta name="description" content="" />
+		<meta name="keywords" content="" />
+		<link href="http://fonts.googleapis.com/css?family=Open+Sans:300,600,700" rel="stylesheet" />
+		<script src="js/jquery.min.js"></script>
+		<script src="js/config.js"></script>
+		<script src="js/skel.min.js"></script>
+		<noscript>
+			<link rel="stylesheet" href="css/skel-noscript.css" />
+			<link rel="stylesheet" href="css/style.css" />
+			<link rel="stylesheet" href="css/style-desktop.css" />
+		</noscript>
+		<!--[if lte IE 9]><link rel="stylesheet" href="css/ie9.css" /><![endif]-->
+		<!--[if lte IE 8]><script src="js/html5shiv.js"></script><link rel="stylesheet" href="css/ie8.css" /><![endif]-->
+		<!--[if lte IE 7]><link rel="stylesheet" href="css/ie7.css" /><![endif]-->
+	</head>
+	<body>
+
+		<!-- Nav -->
+			<nav id="nav">
+				<ul class="container">
+					<li><a href="#top">Top</a></li>
+					<li><a href="#packages">Packages</a></li>
+					<li><a href="#community">Community</a></li>
+				</ul>
+			</nav>
+
+		<!-- Top -->
+			<div class="wrapper wrapper-style1 wrapper-first">
+				<article class="container" id="top">
+					<div class="row">
+						<div class="4u">
+							<span class="image image-full"><img src="images/logo.png" alt="JuliaStats Logo" /></span>
+						</div>
+						<div class="8u">
+							<header>
+								<h1>JuliaStats</h1>
+							</header>
+							<p><strong>Statistics</strong> and <strong>Machine Learning</strong> made easy in Julia.</p>
+							<ul style="list-style-type:disc; margin-left:50px">
+								<li>Easy to use tools for statistics and machine learning.</li>
+								<li>Extensible and reusable models and algorithms</li>
+								<li>Efficient and scalable implementation</li>
+								<li>Community driven, and open source</li>
+							</ul>
+							<a href="#packages" class="button button-big">Learn more</a>
+						</div>
+					</div>
+				</article>
+			</div>
+
+		<!-- Packages -->
+			<div class="wrapper wrapper-style2">
+				<article id="packages">
+					<header>
+						<h2>Packages</h2>
+						<span>We bring together a number of great packages</span>
+					</header>
+					<div class="container">
+						<div class="row">
+							<div class="4u">
+								<section class="box">
+									<h3><a href="https://github.com/JuliaStats/StatsBase.jl">StatsBase</a></h3>
+									<p><strong>Basic functionalities for statistics</strong></p>
+									<ul class="funlist">
+										<li>Descriptive statistics and moments</li>
+										<li>sampling with/without replacement</li>
+										<li>Counting and ranking</li>
+										<li>Autocorrelation and cross-correlation</li>
+										<li>Weighted statistics</li> 
+									</ul>
+								</section>
+							</div>
+
+							<div class="4u">
+								<section class="box">
+									<h3><a href="https://github.com/JuliaStats/DataArrays.jl">DataArrays</a></h3>
+									<p><strong>Arrays that allow missing data</strong></p>
+									<ul class="funlist">
+										<li>Data arrays with missing values</li>
+										<li>Optimized representation of arrays comprised of repetitive values</li>
+										<li>Computational routines that work with missing values</li>
+									</ul>
+								</section>
+							</div>
+
+							<div class="4u">
+								<section class="box">
+									<h3><a href="https://github.com/JuliaStats/DataFrames.jl">DataFrames</a></h3>
+									<p><strong>Essential tools for tabular data</strong></p>
+									<ul class="funlist">
+										<li>DataFrames to represent tabular datasets</li> 
+										<li>Database-style joins and indexing</li>
+										<li>Split-apply-combine operations, pivoting</li>
+										<li>Formula and model frames</li>
+									</ul>
+								</section>
+							</div>	
+						</div>
+
+						<div class="row">
+							<div class="4u">
+								<section class="box">
+									<h3><a href="https://github.com/JuliaStats/Distributions.jl">Distributions</a></h3>
+									<p><strong>Probability distributions</strong></p>
+									<ul class="funlist">
+										<li>A large collection of univariate, multivariate distributions</li>
+										<li>descriptive stats, pdf/pmf, and mgf</li>
+										<li>Efficient sampling</li> 
+										<li>Maximum likelihood estimation</li>
+									</ul>
+								</section>
+							</div>
+
+							<div class="4u">
+								<section class="box">
+									<h3><a href="https://github.com/JuliaStats/MultivariateStats.jl">MultivariateStats</a></h3>
+									<p><strong>Multivariate statistical analysis</strong></p>
+									<ul class="funlist">
+										<li>Linear regression (LSQ and Ridge)</li> 
+										<li>Dimensionality reduction (PCA,CCA,ICA,...)</li>
+										<li>Multidimensional scaling</li>
+										<li>Linear discriminant analysis</li>
+									</ul>
+								</section>
+							</div>
+
+							<div class="4u">
+								<section class="box">
+									<h3><a href="https://github.com/JuliaStats/HypothesisTests.jl">HypothesisTests</a></h3>
+									<p><strong>Hypothesis tests</strong></p>
+									<ul class="funlist">
+										<li>Parametric tests: t-tests</li>
+										<li>Nonparametric tests: binomial tests, sign tests, exact tests, U tests, rank tests, etc</li>
+									</ul>
+								</section>
+							</div>
+						</div>
+
+						<div class="row">
+							<div class="4u">
+								<section class="box">
+									<h3><a href="https://github.com/JuliaStats/MLBase.jl">MLBase</a></h3>
+									<p><strong>Swiss knife for machine learning</strong></p>
+									<ul class="funlist">
+										<li>Data preprocessing</li>
+										<li>Score-based classification</li>
+										<li>Performance evaluation</li>
+										<li>Model selection, cross validation</li>
+									</ul>
+								</section>
+							</div>
+
+							<div class="4u">
+								<section class="box">
+									<h3><a href="https://github.com/JuliaStats/Distance.jl">Distance</a></h3>
+									<p><strong>Various distances between vectors</strong></p>
+									<ul class="funlist">
+										<li>A large variety of metrics</li>
+										<li>Efficient column-wise and pairwise computation</li>
+										<li>Support weighted distances</li>
+									</ul>
+								</section>
+							</div>
+
+							<div class="4u">
+								<section class="box">
+									<h3><a href="https://github.com/JuliaStats/KernelDensity.jl">KernelDensity</a></h3>
+									<p><strong>Kernel density estimation</strong></p>
+									<ul class="funlist">
+										<li>Kernel density estimation for univariate and bivariate data</li>
+										<li>User customization of interpolation points, kernel, and bandwidth</li>
+									</ul>
+								</section>
+							</div>
+						</div>
+
+						<div class="row">
+							<div class="4u">
+								<section class="box">
+									<h3><a href="https://github.com/JuliaStats/Clustering.jl">Clustering</a></h3>
+									<p><strong>Algorithms for data clustering</strong></p>
+									<ul class="funlist">
+										<li>K-means</li>
+										<li>K-medoids</li>
+										<li>Affinity propagation</li>
+										<li>Evaluation of clustering performance</li>
+									</ul>
+								</section>
+							</div>							
+							<div class="4u">
+								<section class="box">
+									<h3><a href="https://github.com/JuliaStats/GLM.jl">GLM</a></h3>
+									<p><strong>Generalized linear models</strong></p>
+									<ul class="funlist">
+										<li>Friendly API for fitting GLM to data</li>
+										<li>Work with data frames and formulas</li>
+										<li>A variety of link types</li>
+										<li>Optimized implementation</li>
+									</ul>
+								</section>
+							</div>		
+							<div class="4u">
+								<section class="box">
+									<h3><a href="https://github.com/JuliaStats/NMF.jl">NMF</a></h3>
+									<p><strong>Nonnegative matrix factorization</strong></p>
+									<ul class="funlist">
+										<li>A variety of NMF algorithms, including Lee & Seung's, Projected ALS and projected gradient, with optimized implementation.</li>
+										<li>NNDSVD initialization</li>
+									</ul>
+								</section>
+							</div>				
+						</div>	
+
+						<div class="row">
+							<div class="4u">
+								<section class="box">
+									<h3><a href="https://github.com/JuliaStats/RegERMs.jl">RegERMs</a></h3>
+									<p><strong>Regularized empirical risk minimization</strong></p>
+									<ul class="funlist">
+										<li>Foundational framework for regression analysis</li>
+										<li>Support ridge regression, logistic regression, and many more (e.g. user-provided loss)</li>
+										<li>Solvers: L-BFGS and SGD</li>
+										<li>Highly configurable and extensible</li>
+									</ul>
+								</section>
+							</div>	
+							<div class="4u">
+								<section class="box">
+									<h3><a href="https://github.com/JuliaStats/MCMC.jl">MCMC</a></h3>
+									<p><strong>Markov Chain Monte Carlo</strong></p>
+									<ul class="funlist">
+										<li>A generic engine for Bayesian inference</li>
+										<li>A variety of samplers, using latest techniques</li>
+										<li>User-friendly syntax for model specification</li>
+										<li>Use auto-differentiation</li>
+										<li>ability to suspend and resume</li>
+									</ul>
+								</section>
+							</div>								
+							<div class="4u">
+								<section class="box">
+									<h3><a href="https://github.com/JuliaStats/TimeSeries.jl">TimeSeries</a></h3>
+									<p><strong>Time series analysis</strong></p>
+									<ul class="funlist">
+										<li>Tools to represent, manipulate, and apply computation to time series data</li>
+										<li>Based on data frames</li>
+									</ul>
+								</section>
+							</div>	
+						</div>					
+				</article>
+			</div>
+
+		<!-- Coummnity -->
+			<div class="wrapper wrapper-style3">
+				<article id="community" class="container small">
+					<header>
+						<h2>Community</h2>
+						<span>We have an active and friendly community.</span>
+					</header>
+					<footer>
+						<ul id="copyright">
+							<li>&copy; 2014 JuliaStats contributors.</li>
+							<li>Images: <a href="http://fotogrph.com">fotogrph</a></li>
+							<li>Design: <a href="http://html5up.net/">HTML5 UP</a></li>
+						</ul>
+					</footer>
+				</article>
+			</div>
+
+
+	</body>
+</html>
