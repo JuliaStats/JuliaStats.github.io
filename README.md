@@ -1,4 +1,4 @@
 JuliaStats.github.io
 ====================
 
-The home page of JuliaStats
+The home page of [JuliaStats](https://juliastats.github.io/)
